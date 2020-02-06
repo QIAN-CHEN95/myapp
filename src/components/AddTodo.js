@@ -16,7 +16,7 @@ onSubmit=(e)=>{
         return (
             <form onSubmit={this.onSubmit}>
 
-                <input    type="text"    onChange={this.onChange} name="title" value={this.state.title}  />
+                <input    type="text"   placeholder='add todo' onChange={this.onChange} name="title" value={this.state.title}  />
                 <input type="submit" value="Submit" />
             </form>
         )

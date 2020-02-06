@@ -1,15 +1,21 @@
 import React, { Component } from 'react'
 import MainView from './views/MainView'
-import Home from './components/Home'
-import {BrowserRouter as Router,Route} from 'react-router-dom'
+import {BrowserRouter as Router,Route, Switch} from 'react-router-dom'
+import Todos from './components/Todos'
+import Blogs from './components/Blogs'
+import Header from './components/Header'
+import './App.css'
+
 export class App extends Component {
   render() {
     return (
       <Router>
-
-        <Route path="/" exact component={Home}  />
-        <Route  path="/mainview" exact component={MainView}     />
-        
+        <Header      />
+        <Switch>
+        <Route path="/" exact component={MainView}  />
+        <Route path="/todos" exact component={Todos}   />
+        <Route path="/blogs" exact component={Blogs}            />
+        </Switch>
       </Router>
  
     )
