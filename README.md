@@ -1,3 +1,4 @@
+please look at README.md.docx for full documentation
 this is a personal project, just to show my knowledge in HTML, CSS, JAVASCRIPT, REACT.
 
 Currently this app has only two function, Todos & Blogs. I am focus on functions not looks of the website, therefore, the website looks bored. 
