@@ -19,11 +19,11 @@ onSubmit=(e)=>{
 
 
         return (
-            <div>
+            <div className="add-blog"> 
                 <form  onSubmit={this.onSubmit}   >
                 <input type="text" placeholder="add Title..." name="title" value={this.state.title} onChange={this.onChange} />
                 <input type="text" placeholder="add bloger"  name="bloger" value={this.state.bloger} onChange={this.onChange}  /> <br></br>
-                <textarea    placeholder="add blog content..."  name="content" value={this.state.content} onChange={this.onChange}     />
+                <textarea className="add-blog-content"  placeholder="add blog content..."  name="content" value={this.state.content} onChange={this.onChange}     />
                 <input type="submit" value="Submit"   />
                 </form>
 

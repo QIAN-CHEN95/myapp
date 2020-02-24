@@ -21,3 +21,73 @@ li{
   display: flex;
   background-color: rgb(95, 94, 94);
 }
+.container{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 12em;
+  font-size: 24px;
+
+}
+p{
+  text-align: center;
+  display: block;
+}
+.content-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 1px;
+
+  background-color: rgb(141, 121, 131);
+}
+.todos{
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  border: 2px;
+  border-color: black;
+  border-style: double;
+
+}
+.add-todo{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+.todos-title{
+  text-align: center;
+}
+.todo{
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  border-bottom: solid 1px rgb(238, 182, 182);
+}
+.blogs{
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px;
+  border-color: black;
+  border-style: double;
+}
+.blog{
+  padding-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  border-bottom: solid 1px rgb(238, 182, 182);
+}
+.add-blog{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+
+}
+.add-blog-content{
+  width: 63%;
+  height: 10em;
+}

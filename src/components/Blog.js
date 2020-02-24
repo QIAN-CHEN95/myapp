@@ -3,7 +3,7 @@ import React from 'react'
 export default function Blog(props) {
 
     return (
-        <div>
+        <div className="blog">
             
            <h3>  {props.blog.title} </h3> 
            <p>  {props.blog.content} --- by bloger : {props.blog.bloger} </p> 

@@ -44,7 +44,7 @@ export class Blogs extends Component {
       }
     render() {
         return (
-            <div>
+            <div className="blogs">
                 {this.state.blogs.map((blog)=>(
 
 

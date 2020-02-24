@@ -11,11 +11,12 @@ export class MainView extends Component {
 
     render() {
 
+        
         return (
 
-            <div>
-            <Link to="/todos" > <p>Todos</p> </Link>
-            <Link to="/blogs" > <p>Blogs</p> </Link>
+            <div className="container">
+            <Link to="/todos" > <p className="content-item">Todos</p> </Link>
+            <Link to="/blogs" > <p className="content-item">Blogs</p> </Link>
             </div>
 
         )

@@ -4,6 +4,7 @@ import AddTodo from './AddTodo'
 import uuid from 'uuid'
 
 
+
 export class Todos extends Component {
     state={
         todos:
@@ -62,11 +63,13 @@ export class Todos extends Component {
     }
     render() {
         return (
-                <div>
+                <div className="todos">
+                  <h2 className="todos-title" >Todos list</h2>
                     {this.state.todos.map((todo)=>(
-                    <Todo   key={todo.id}   todo={todo}   markComplete={this.markComplete}  delTodo={this.delTodo}  />
+                    <Todo className="todos-i"  key={todo.id}   todo={todo}   markComplete={this.markComplete}  delTodo={this.delTodo}  />
                 ))} 
                 <AddTodo      addTodo={this.addTodo}     />
+
                 </div>
 
 
